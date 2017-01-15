@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Accordion Method</title>
+  	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	<!-- this is the anonymous jQuery function that is triggered by the HTML <div> element and the corresponding id attribute #prizes.  It's then called with the .accordion() method
+ -->
+  	<script>
+  		$( function() {
+    		$( "#prizes" ).accordion();
+  		});
+  	</script>	
+</head>
+
+	<body>
+		<header>
+			<h1>jQuery Accordion Method</h1>
+		</header>
+			<div id="prizes">
+			<h3>1st Prize</h3>
+			<div><p>First prize goes to the person who can spell the most words in 10 seconds!</p></div>
+			<h3>2nd Prize</h3>
+			<div><p>Second prize goes to the person who can eat the most watermelon in 20 seconds!</p></div>
+			<h3>3rd Prize</h3>
+			<div><p>Third prize goes to the person who can go to sleep in 30 seconds!</p></div>
+			</div>
+	</body>
+</html>
